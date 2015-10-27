@@ -1,0 +1,14 @@
+#mynetwork {
+  margin: 50px auto;
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid lightgray;
+}
+
+.modal-dialog{
+  width: 60%;
+}
+
+#showtable{
+  margin: 20px 0;
+}

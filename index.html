@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Traffic Network</title>
+
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="assets/css/vis.css" media="screen">
+  <link rel="stylesheet" href="assets/css/main.css" media="screen">
+
+  <script type="text/javascript" src="assets/js/vis.js"></script>
+</head>
+<body>
+  <div id="mynetwork"></div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="#1" id="1" role="tab" data-toggle="tab">第1天</a></li>
+            <li role="presentation"><a href="#2" id="2" role="tab" data-toggle="tab">第2天</a></li>
+            <li role="presentation"><a href="#3" id="3" role="tab" data-toggle="tab">第3天</a></li>
+            <li role="presentation"><a href="#4" id="4" role="tab" data-toggle="tab">第4天</a></li>
+            <li role="presentation"><a href="#5" id="5" role="tab" data-toggle="tab">第5天</a></li>
+            <li role="presentation"><a href="#6" id="6" role="tab" data-toggle="tab">第6天</a></li>
+            <li role="presentation"><a href="#7" id="7" role="tab" data-toggle="tab">第7天</a></li>
+          </ul>
+          <div id="showtable">
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/highcharts.js" ></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
