@@ -16,7 +16,16 @@
 
 * 原始数据描述
 
-> initialData/flow0901.txt ~ flow0907.txt 
+```
+├── initialData/
+│   └── flow0901.txt
+│   └── flow0902.txt
+|   └── flow0903.txt
+|   └── flow0904.txt
+|   └── flow0905.txt
+|   └── flow0906.txt
+|   └── flow0907.txt
+```
 
 共7份数据文件，代表7天的车流量数据。
 
